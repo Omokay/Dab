@@ -1,0 +1,47 @@
+.about-section {
+  float: left;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 100px 50px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://ik.imagekit.io/bn1u7wfqt/bak_MossUCQ4p8X.svg');
+
+  .title {
+    h1 {
+      color: #000;
+    }
+    p {
+      width: 80%;
+      margin: 10px auto;
+      color: black;
+      font-size: 18px;
+    }
+  }
+
+  .home-content1 {
+    .row {
+      .content1-left {
+        padding: 5%;
+        background: #f4f7c5;
+        color: black;
+
+        .lead {
+          color: black;
+        }
+      }
+
+      .content1-right {
+        padding: 5%;
+        background: #e7b2a5;
+        color: black;
+        .lead {
+          color: black;
+        }
+      }
+    }
+  }
+}
