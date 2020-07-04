@@ -1,0 +1,30 @@
+  .action-btn2 {
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    padding: 0 15px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.036em;
+    line-height: 54px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none !important;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #e7b2a5;
+    background: transparent;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+    margin: 5px;
+
+    &:hover {
+      padding-left: calc(20px + 5px);
+      padding-right: calc(20px + 5px);
+      color: white;
+      background-color:  #f1935c;
+    }
+  }
